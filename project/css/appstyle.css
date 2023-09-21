@@ -1,0 +1,99 @@
+
+
+html, body {
+  height: 100%;
+  font-family: "Helvetica";
+  background-image: url("https://i.pinimg.com/564x/c4/9b/3a/c49b3a96bd447dd7c16e6f0069745720.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  /*color: #F8B195;*/
+}
+
+h2 {
+  /*color: #A8A7A7;*/
+  font-size : 20px;
+  text-align: center;
+}
+
+/* ref links */
+a{
+  text-decoration: none;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{ /* must come after link and visited */
+  color: #A44849;
+}
+a:active{
+  color: #97C8C8;
+}
+
+
+.parent{
+  width: 75%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  max-width: 100%
+  max-height: 100%;
+}
+
+.spacer{
+  padding-bottom: 580px;
+}
+.top{
+  display: flex;
+  color: white;
+  font-size: 20px;
+}
+.name{
+  flex: 50%;
+  margin-left: 20px;
+}
+
+.intro{
+  font-size: 30px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  font-size: 20px;
+  padding:40px;
+  border-radius: 20px;
+  opacity: 90%
+}
+#aboutme{
+  margin-left: 30%;
+  background-color: grey;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#designs{
+  margin-left: 50%;
+  background-color: #474747;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.game{
+  height: 200px;
+  text-align: center;
+}

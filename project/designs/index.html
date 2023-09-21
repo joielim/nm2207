@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <!--  Include the raphael library from the jslibs directory  -->
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <script defer type="text/javascript" src="appscripts/main.js">
+        </script> </head>
+
+    <body>
+        <h2> Personal Designs </h2>
+            <p> (click on the designs!) <p>
+        <div class="designs" id="designs"> </div>
+
+            <div class="spacer"></div>
+
+        <h2> Draw! </h2>
+            <input type="button" id="button" value="Clear" onclick="clearcanvas()">
+            Red<input type="range" class="slider" id="red" value="255" min="0" max="255">
+            Green<input type="range" class="slider" id="green" value="100" min="0" max="255">
+            Blue<input type="range" class="slider" id="blue" value="100" min="0" max="255">
+            <div id="draw">
+            <div class="canvas" id='canvas'> </div> </div>
+            <div class="spacer"></div> <br>
+	</body>

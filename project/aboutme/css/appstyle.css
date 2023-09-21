@@ -1,0 +1,39 @@
+
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://i.pinimg.com/474x/88/90/89/889089fb969bf90429628264d836e829.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+p{
+  margin-left: 50px;
+  width: 500px;
+}
+img{
+  display: none;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin-left: 50px;
+  color: darkslategrey;
+}
+.skate{
+  display: flex;
+  justify-content: center;
+  height:500px;
+  padding: 10px;
+  margin: 50px;
+}
+.game{
+  margin: 50px;
+  height: 200px;
+}
+.spacer{
+  height:100px;
+}
